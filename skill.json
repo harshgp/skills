@@ -1,0 +1,26 @@
+{
+  "name": "neettracker",
+  "version": "1.0.0",
+  "description": "Build a production-grade NEET UG Test Paper Generator software using the official NeetTracker MCP server and Question Bank API.",
+  "author": "NeetTracker",
+  "license": "MIT",
+  "homepage": "https://api.neettracker.com/mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neettracker/skills.git"
+  },
+  "keywords": [
+    "neet",
+    "exam-generator",
+    "mcp",
+    "test-series",
+    "claude-code",
+    "antigravity",
+    "question-bank"
+  ],
+  "mcp": {
+    "server": "https://api.neettracker.com/mcp",
+    "transport": "http",
+    "auth": "optional"
+  }
+}
